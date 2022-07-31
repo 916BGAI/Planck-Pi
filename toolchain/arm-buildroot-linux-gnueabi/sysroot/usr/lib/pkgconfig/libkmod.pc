@@ -1,0 +1,11 @@
+prefix=/usr
+exec_prefix=/usr
+libdir=/usr/lib
+includedir=/usr/include
+
+Name: libkmod
+Description: Library to deal with kernel modules
+Version: 29
+Libs: -L${libdir} -lkmod
+Libs.private:   -L/home/kjlsai/pi/buildroot-2022.05/output/host/bin/../arm-buildroot-linux-gnueabi/sysroot/usr/lib -lz 
+Cflags: -I${includedir}

@@ -1,0 +1,2 @@
+add-auto-load-safe-path /home/kjlsai/pi/buildroot-2022.05/output/host/arm-buildroot-linux-gnueabi/sysroot
+set sysroot /home/kjlsai/pi/buildroot-2022.05/output/host/arm-buildroot-linux-gnueabi/sysroot

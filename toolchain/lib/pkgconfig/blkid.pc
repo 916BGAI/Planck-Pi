@@ -1,0 +1,10 @@
+prefix=/home/kjlsai/pi/buildroot-2022.05/output/host
+exec_prefix=/home/kjlsai/pi/buildroot-2022.05/output/host
+libdir=/home/kjlsai/pi/buildroot-2022.05/output/host/lib
+includedir=/home/kjlsai/pi/buildroot-2022.05/output/host/include
+
+Name: blkid
+Description: Block device id library
+Version: 2.38.0
+Cflags: -I${includedir}/blkid
+Libs: -L${libdir} -lblkid

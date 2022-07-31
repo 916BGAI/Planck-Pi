@@ -1,0 +1,10 @@
+prefix=/home/kjlsai/pi/buildroot-2022.05/output/host
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: libmagic
+Description: Magic number recognition library
+Version: 5.41
+Libs: -L${libdir} -lmagic
+Libs.private: -llzma -lbz2 -lz 
