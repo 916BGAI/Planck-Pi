@@ -1,7 +1,7 @@
 # Planck-Pi
 
 ```bash
-git clone -b linux_5.4.77 git@github.com:916BGAI/Planck-Pi.git
+git clone -b linux_4.14 git@github.com:916BGAI/Planck-Pi.git
 ```
 
 ```bash
