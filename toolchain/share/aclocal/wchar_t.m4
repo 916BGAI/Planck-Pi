@@ -1,1 +1,0 @@
-../gettext-tiny/m4/wchar_t.m4

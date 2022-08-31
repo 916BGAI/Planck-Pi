@@ -1346,13 +1346,13 @@ endif
 ifneq "$(KERNELVERSION)" "5.2.0"
 include/config/auto.conf: FORCE
 endif
-ifneq "$(CC_VERSION_TEXT)" "arm-linux-gcc.br_real (Buildroot 2022.05) 11.3.0"
+ifneq "$(CC_VERSION_TEXT)" "arm-linux-gnueabi-gcc (Linaro GCC 7.5-2019.12) 7.5.0"
 include/config/auto.conf: FORCE
 endif
-ifneq "$(CC)" "../toolchain/bin/arm-linux-gcc"
+ifneq "$(CC)" "../toolchain/gcc-linaro-7.5.0/bin/arm-linux-gnueabi-gcc"
 include/config/auto.conf: FORCE
 endif
-ifneq "$(LD)" "../toolchain/bin/arm-linux-ld"
+ifneq "$(LD)" "../toolchain/gcc-linaro-7.5.0/bin/arm-linux-gnueabi-ld"
 include/config/auto.conf: FORCE
 endif
 ifneq "$(srctree)" "."

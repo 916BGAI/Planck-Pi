@@ -1,1 +1,0 @@
-../gettext-tiny/m4/configheader.m4

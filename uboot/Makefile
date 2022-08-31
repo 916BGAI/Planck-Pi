@@ -242,7 +242,7 @@ export	HOSTARCH HOSTOS
 #########################################################################
 
 # set default to nothing for native builds
-CROSS_COMPILE = ../toolchain/bin/arm-linux-
+CROSS_COMPILE = ../toolchain/gcc-linaro-7.5.0/bin/arm-linux-gnueabi-
 ARCH = arm
 
 KCONFIG_CONFIG	?= .config
