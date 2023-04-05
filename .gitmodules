@@ -1,0 +1,11 @@
+[submodule "u-boot"]
+	path = u-boot
+	url = https://github.com/916BGAI/Planck-Pi-u-boot.git
+	branch = v2018.01
+[submodule "Buildroot"]
+	path = Buildroot
+	url = https://github.com/916BGAI/Planck-Pi-Buildroot.git
+[submodule "linux"]
+	path = linux
+	url = https://github.com/916BGAI/Planck-Pi-Kernel.git
+	branch = 4.15
