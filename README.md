@@ -10,7 +10,7 @@ $ wget https://releases.linaro.org/components/toolchain/binaries/7.5-2019.12/arm
 ```
 ## Download SDK from GitHub
 ```bash
-$ git clone -b linux_5.4.77 --single-branch https://github.com/916BGAI/Planck-Pi.git
+$ git clone -b linux_6.5.2 --single-branch https://github.com/916BGAI/Planck-Pi.git
 $ cd Planck-Pi/
 $ git submodule update --init --recursive
 ```
@@ -19,10 +19,14 @@ $ git submodule update --init --recursive
 $ cd u-boot
 $ make planck_pi_defconfig
 $ make menuconfig
-$ make -j16
+$ make -j65535
 $ cd linux
 $ make planck_pi_defconfig
 $ make menuconfig
-$ make -j16
+$ make -j65535
+$ cd Buildroot
+$ make planck_pi_defconfig
+$ make menuconfig
+$ make
 ```
 
