@@ -6,6 +6,3 @@
 	path = linux
 	url = https://github.com/916BGAI/Planck-Pi-Kernel.git
 	branch = 5.4.77
-[submodule "Buildroot"]
-	path = Buildroot
-	url = https://github.com/916BGAI/Planck-Pi-Buildroot.git
